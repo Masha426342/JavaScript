@@ -1,5 +1,10 @@
-const prompt = require("prompt-sync")(); // импорт и инициализации библиотеки prompt-sync, для упрощения кода интерфейса
-let N = +prompt("Введите число N: ");// просим пользователя ввести последнее число массива
+const readline = require ("readline").createInterface({ //создаем интерфейс
+    input: process.stdin,
+    output: process.stdout
+});
+readline.question("Введите число N: ", (N) => { // просим пользователя ввести последнее число массива
+N = parseInt(N); // Преобразуем введенное значение в число
+
 let arr = []; //создаем список
 
 for (let i = 1; i <= N; i++) { 
@@ -7,3 +12,4 @@ for (let i = 1; i <= N; i++) {
 }
 
 console.log("Готовый массив: ", arr);// выводим результат
+})
