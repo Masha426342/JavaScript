@@ -1,0 +1,6 @@
+function subtract(a,b) {
+    c = a-b;
+    console.log("Разность чисел: " + c);
+}
+
+subtract(12,8);
