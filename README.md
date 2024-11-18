@@ -22,4 +22,24 @@
  
  [Задание 3](/zd3)
 
+## Лабораторная работа 4. Браузерный JavaScript
 
+* Задание 1 Реализуйте слайдер изображений с кнопками "Вперед" и "Назад"
+   * [index.html](z1_Index.html)
+ 
+   * [styles.css](z1_styles.css)
+ 
+   * [script.js](z1_script.js)
+
+* Задание 2 Создайте таймер обратного отсчета с возможностью установки времени.
+   * [index.html](z2_Index.html)
+ 
+   * [styles.css](z2_styles.css)
+ 
+   * [script.js](z2_script.js)
+* Задание 3  Разработайте игру "Угадай число" с подсказками "больше" или "меньше".
+   * [index.html](Index.html)
+ 
+   * [styles.css](styles.css)
+ 
+   * [script.js](script.js)
