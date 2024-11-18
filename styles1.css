@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #eaeaea;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slider {
+    position: relative;
+    overflow: hidden; /* Показывает только одну картинку */
+    border: 3px solid #333;
+    border-radius: 10px;
+    transition: width 0.4s, height 0.4s; /* Анимация изменения размера */
+    max-width: 80%; /* Ограничение максимальной ширины слайдера */
+    max-height: 80%; /* Ограничение максимальной высоты слайдера */
+}
+
+.slider-wrapper {
+    display: flex; /* Располагает слайды в одну линию */
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+    flex-shrink: 0;
+    max-width: 100%; /* Уменьшение ширины, если картинка слишком большая */
+    max-height: 60vh; /* Ограничение высоты картинки */
+    width: 100%; /* Картинка занимает всю ширину слайдера */
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+.slider-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
