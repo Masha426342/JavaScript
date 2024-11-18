@@ -38,7 +38,7 @@
  
    * [script.js](script2.js)
 * Задание 3  Разработайте игру "Угадай число" с подсказками "больше" или "меньше".
-   * [index.html](Index.html)
+   * [index.html](index.html)
  
    * [styles.css](styles.css)
  
