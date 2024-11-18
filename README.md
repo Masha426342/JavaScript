@@ -25,18 +25,18 @@
 ## Лабораторная работа 4. Браузерный JavaScript
 
 * Задание 1 Реализуйте слайдер изображений с кнопками "Вперед" и "Назад"
-   * [index.html](z1_Index.html)
+   * [index.html](index1.htmll)
  
-   * [styles.css](z1_styles.css)
+   * [styles.css](styles1.css)
  
-   * [script.js](z1_script.js)
+   * [script.js](script1.js)
 
 * Задание 2 Создайте таймер обратного отсчета с возможностью установки времени.
-   * [index.html](z2_Index.html)
+   * [index.html](index2.html)
  
-   * [styles.css](z2_styles.css)
+   * [styles.css](styles2.css)
  
-   * [script.js](z2_script.js)
+   * [script.js](script2.js)
 * Задание 3  Разработайте игру "Угадай число" с подсказками "больше" или "меньше".
    * [index.html](Index.html)
  
