@@ -25,7 +25,7 @@
 ## Лабораторная работа 4. Браузерный JavaScript
 
 * Задание 1 Реализуйте слайдер изображений с кнопками "Вперед" и "Назад"
-   * [index.html](index1.htmll)
+   * [index.html](index1.html)
  
    * [styles.css](styles1.css)
  
